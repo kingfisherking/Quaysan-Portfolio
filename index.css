@@ -1,6 +1,49 @@
-p {
-    color: green;
+html {
+    background-color: rgb(218, 192, 115);
 }
-div {
-    background-color: red;
+nav {
+    width: 23%;
+    height: 70%;
+    /* background-color: rgba(0, 0, 255, 0.218); */
+    position: fixed;
+    
+    padding: 100px 0;
+}
+main {
+    /* background-color: red; */
+    margin-left: 23.6%;
+    width: auto;
+    height: 100%;
+    display: flex;
+    padding: 100px 0;
+    justify-content: center;
+    align-content: center;
+    
+}
+
+.main-view picture {
+    display: flex;
+    /* background-color: black; */
+    
+    justify-content: center;
+    align-content: center;
+    
+    overflow: hidden;
+
+    margin: 5% 0;
+}
+.main-view img {
+    height: 40%;
+    width: 40%;
+    transform: translateY(20%) scale(1.5);
+}
+
+.main-view-summary {
+    display: flex;
+    /* background-color: rgb(43, 255, 0); */
+    
+    justify-content: center;
+    align-content: center;
+    
+    overflow: hidden;
 }
