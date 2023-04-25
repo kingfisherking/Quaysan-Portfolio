@@ -1,5 +1,7 @@
 html {
-    background-color: rgb(218, 192, 115);
+    background-color: rgb(233, 205, 120);
+    font-family: "Shrikhand";
+    
 }
 nav {
     width: 23%;
@@ -9,16 +11,48 @@ nav {
     
     padding: 100px 0;
 }
+
+nav ul {
+    list-style: none;
+}
+nav ul li{
+
+}
+nav ul li button{
+    background-color: transparent;
+    border: none;
+    font-family: "Shrikhand";
+    font-size: 3rem;
+    
+    color: rgb(52, 88, 50);
+    
+    padding: 0px 30px;
+    margin: 30px;
+}
+
+nav ul li button:hover{
+    background-color: transparent;
+    border: 15px solid rgb(52, 88, 50);
+    border-radius: 7%;
+    font-family: "Shrikhand";
+    font-size: 3rem;
+    margin: 15.75px;
+    color: rgb(52, 88, 50);
+}
 main {
     /* background-color: red; */
-    margin-left: 23.6%;
+    margin-left: 32%;
     width: auto;
     height: 100%;
     display: flex;
-    padding: 100px 0;
+    padding: 75px 0;
     justify-content: center;
     align-content: center;
-    
+    /* background-color: brown; */
+}
+
+.main-view {
+    /* visibility: hidden; */
 }
 
 .main-view picture {
@@ -46,4 +80,24 @@ main {
     align-content: center;
     
     overflow: hidden;
+}
+
+.main-view-summary button {
+    background-color: transparent;
+    border: none;
+    font-family: "Shrikhand";
+    font-size: 5rem;
+    color: rgb(52, 88, 50);
+}
+
+.about-view{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(255, 235, 175);
+    visibility: hidden;
+}
+
+.about-view p{
+    width: 100%;
+    background-color: aqua;
 }
