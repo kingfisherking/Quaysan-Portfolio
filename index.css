@@ -94,10 +94,18 @@ main {
     height: 100%;
     width: 100%;
     background-color: rgb(255, 235, 175);
-    visibility: hidden;
+    display: none;
 }
 
 .about-view p{
     width: 100%;
     background-color: aqua;
+}
+
+.contact-view{
+    display:none;
+}
+
+.projects-view{
+    display: none;
 }

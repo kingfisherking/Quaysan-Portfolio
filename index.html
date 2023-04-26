@@ -5,19 +5,27 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
-
+       <script>
+            function foo(id){
+                document.getElementById("main-view").style.display = "none";
+                document.getElementById("about-view").style.display = "none";
+                document.getElementById("projects-view").style.display = "none";
+                document.getElementById("contact-view").style.display = "none";
+                document.getElementById(id).style.display = "block";
+            }
+        </script>
     </head>
-    <body>
+    <body id="body">
         <nav>
             <ul>
-                <li><button>main</button></li>
-                <li><button>about</button></li>
-                <li><button>projects</button></li>
-                <li><button>contact</button></li>
+                <li><button onclick="foo('main-view')">main</button></li>
+                <li><button onclick="foo('about-view')">about</button></li>
+                <li><button onclick="foo('projects-view')">projects</button></li>
+                <li><button onclick="foo('contact-view')">contact</button></li>
             </ul>
         </nav>
         <main>
-            <div class="main-view">
+            <div class="main-view" id="main-view">
                 <picture>
                     <img src="./akili.jpeg">
                 </picture>
@@ -27,10 +35,18 @@
                     </button>
                 </section>
             </div>
-            <div class="about-view">
+            <div class="about-view" id="about-view">
                 <p>
                     hey yall just wanted to test out the maximum this website could hold
                 </p>
+            </div>
+            <div class="projects-view" id="projects-view">
+                <p><a href="https://kingfisherking.github.io/jamming-quaysan-react/">here's a link to my spotify api project</a></p>
+                <p><a href="https://www.figma.com/file/kneA8hgAsZx2pSx7kPcjcf/Evil-Eye-App?node-id=0%3A1&t=5qBtJoFWNPWoaep5-1">here's a link to a wireframing project</a></p>
+            </div>
+            <div class="contact-view" id="contact-view">
+                <p><a href="https://www.linkedin.com/profile/at-hall">here's a link to my linkedin</a></p>
+                <p><a href="https://github.com/kingfisherking">here's a link to my github</a></p>
             </div>
         </main>
     </body>    
