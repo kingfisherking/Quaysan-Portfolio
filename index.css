@@ -95,17 +95,27 @@ main {
     width: 100%;
     background-color: rgb(255, 235, 175);
     display: none;
+    text-align: center;
 }
 
 .about-view p{
     width: 100%;
-    background-color: aqua;
+    /* background-color: aqua; */
+
 }
 
 .contact-view{
-    display:none;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(255, 235, 175);
+    display: none;
+    text-align: center;
 }
 
 .projects-view{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(255, 235, 175);
     display: none;
+    text-align: center;
 }
