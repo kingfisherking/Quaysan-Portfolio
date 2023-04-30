@@ -42,6 +42,7 @@ nav ul li button:hover{
 main {
     /* background-color: red; */
     margin-left: 32%;
+    margin-right: 5%;
     width: auto;
     height: 100%;
     display: flex;
