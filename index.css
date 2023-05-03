@@ -15,9 +15,7 @@ nav {
 nav ul {
     list-style: none;
 }
-nav ul li{
 
-}
 nav ul li button{
     background-color: transparent;
     border: none;
@@ -52,9 +50,6 @@ main {
     /* background-color: brown; */
 }
 
-.main-view {
-    /* visibility: hidden; */
-}
 
 .main-view picture {
     display: flex;
@@ -97,6 +92,9 @@ main {
     background-color: rgb(255, 235, 175);
     display: none;
     text-align: center;
+    font-size: 2em;
+    border: 10px solid black;
+    border-radius: 10%;
 }
 
 .about-view p{
@@ -111,6 +109,9 @@ main {
     background-color: rgb(255, 235, 175);
     display: none;
     text-align: center;
+    font-size: 2em;
+    border: 10px solid black;
+    border-radius: 10%;
 }
 
 .projects-view{
@@ -119,4 +120,7 @@ main {
     background-color: rgb(255, 235, 175);
     display: none;
     text-align: center;
+    font-size: 2em;
+    border: 10px solid black;
+    border-radius: 10%;
 }
