@@ -3,6 +3,9 @@ html {
     font-family: "Shrikhand";
     
 }
+p {
+    padding: 10px 0;
+}
 nav {
     width: 23%;
     height: 70%;
