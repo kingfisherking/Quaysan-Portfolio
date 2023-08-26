@@ -1,129 +1,38 @@
-html {
-    background-color: rgb(233, 205, 120);
-    font-family: "Shrikhand";
-    
+html{
+    color: #444;
 }
-p {
-    padding: 10px 0;
-}
-nav {
-    width: 23%;
-    height: 70%;
-    /* background-color: rgba(0, 0, 255, 0.218); */
-    position: fixed;
-    
-    padding: 100px 0;
+a{
+    color:#444;
+    text-decoration: none;
 }
 
-nav ul {
-    list-style: none;
+h1::after,h2::after{
+    background-color: #444;
+    height: 3px;
+    content: "";
+    display: block;
+    margin: 5px;
 }
 
-nav ul li button{
-    background-color: transparent;
-    border: none;
-    font-family: "Shrikhand";
-    font-size: 3rem;
-    
-    color: rgb(52, 88, 50);
-    
-    padding: 0px 30px;
-    margin: 30px;
+#st-louis-mo-314-600-6165-quaaysan-gmail-com-www-quaysan-dev::before{
+    background-color: #444;
+    height: 1.5px;
+    content: "";
+    display: block;
+    margin: 5px 10px 5px 5px;
+    margin-top: -15px;
 }
 
-nav ul li button:hover{
-    background-color: transparent;
-    border: 15px solid rgb(52, 88, 50);
-    border-radius: 7%;
-    font-family: "Shrikhand";
-    font-size: 3rem;
-    margin: 15.75px;
-    color: rgb(52, 88, 50);
-}
-main {
-    /* background-color: red; */
-    margin-left: 32%;
-    margin-right: 5%;
-    width: auto;
-    height: 100%;
-    display: flex;
-    padding: 75px 0;
-    justify-content: center;
-    align-content: center;
-    /* background-color: brown; */
-}
-
-
-.main-view picture {
-    display: flex;
-    /* background-color: black; */
-    
-    justify-content: center;
-    align-content: center;
-    
-    overflow: hidden;
-
-    margin: 5% 0;
-}
-.main-view img {
-    height: 40%;
-    width: 40%;
-    transform: translateY(20%) scale(1.5);
-}
-
-.main-view-summary {
-    display: flex;
-    /* background-color: rgb(43, 255, 0); */
-    
-    justify-content: center;
-    align-content: center;
-    
-    overflow: hidden;
-}
-
-.main-view-summary button {
-    background-color: transparent;
-    border: none;
-    font-family: "Shrikhand";
-    font-size: 5rem;
-    color: rgb(52, 88, 50);
-}
-
-.about-view{
-    height: 100%;
-    width: 100%;
-    background-color: rgb(255, 235, 175);
-    display: none;
+h1, #st-louis-mo-314-600-6165-quaaysan-gmail-com-www-quaysan-dev, #hosted-selection{
     text-align: center;
-    font-size: 2em;
-    border: 10px solid black;
-    border-radius: 10%;
 }
-
-.about-view p{
-    width: 100%;
-    /* background-color: aqua; */
-
+td{
+    padding: 5px 20px; 
 }
-
-.contact-view{
-    height: 100%;
-    width: 100%;
-    background-color: rgb(255, 235, 175);
-    display: none;
-    text-align: center;
-    font-size: 2em;
-    border: 10px solid black;
-    border-radius: 10%;
+h2, h3, h4{
+    margin-left: 6px;
 }
-
-.projects-view{
-    height: 100%;
-    width: 100%;
-    background-color: rgb(255, 235, 175);
-    display: none;
-    text-align: center;
-    font-size: 2em;
-    border: 10px solid black;
-    border-radius: 10%;
+h5{
+    margin-top: -10px;
+    margin-left: 10px;
 }
