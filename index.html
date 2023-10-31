@@ -1,64 +1,193 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link rel="stylesheet" href="./index.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
-       <script>
-            function foo(id){
-                document.getElementById("main-view").style.display = "none";
-                document.getElementById("about-view").style.display = "none";
-                document.getElementById("projects-view").style.display = "none";
-                document.getElementById("contact-view").style.display = "none";
-                document.getElementById(id).style.display = "block";
-            }
-        </script>
-    </head>
-    <body id="body">
-        <nav>
-            <ul>
-                <li><button onclick="foo('main-view')">main</button></li>
-                <li><button onclick="foo('about-view')">about</button></li>
-                <li><button onclick="foo('projects-view')">projects</button></li>
-                <li><button onclick="foo('contact-view')">contact</button></li>
-            </ul>
-        </nav>
-        <main>
-            <div class="main-view" id="main-view">
-                <picture>
-                    <img src="./akili.jpeg">
-                </picture>
-                <section class="main-view-summary">
-                    <button>
-                        HIRE THIS MAN
-                    </button>
-                </section>
-            </div>
-            <div class="about-view" id="about-view">
-                <p>
-                    hi, this website is a bit under-designed, but i promise i'm actually pretty good at building websites<br>
-                    <br>
-                    so i'm 27, been trying to get into the tech industry for a while and would love a new opportunity
-                    <br>
-                    <br>
-                    i've been learning a bit of computer language, ux/ui design, machine learning, anything that might help
-                    <br>
-                    <br>
-                    let me know if you have any opportunities that would help me learn and transition into a new career!
-                </p>
-            </div>
-            <div class="projects-view" id="projects-view">
-                <br>
-                <p><a href="https://kingfisherking.github.io/jamming-quaysan-react/">here's a link to my spotify api project</a></p>
-                <br><p><a href="https://www.figma.com/file/kneA8hgAsZx2pSx7kPcjcf/Evil-Eye-App?node-id=0%3A1&t=5qBtJoFWNPWoaep5-1">here's a link to a wireframing project</a></p>
-                <br> <p><a href="https://docs.google.com/presentation/d/1PSoL8V-QxGzLAybquUB6MGpAJNeYTieLA7Twt-2nkg4/edit?usp=sharing">here's a small data analysis project overview</a></p> <br>
-            </div>
-            <div class="contact-view" id="contact-view"> <br>
-                <p><a href="https://www.linkedin.com/in/at-hall/">here's a link to my linkedin</a></p> <br> 
-                <p><a href="mailto:Quaaysan@gmail.com">you can email me directly</a></p> <br>
-                <p><a href="https://github.com/kingfisherking">here's a link to my github</a></p><br>
-            </div>
-        </main>
-    </body>    
+
+<head>
+    <link href="./index.css" rel="stylesheet">
+</head>
+
+<body>
+    <section id="Title">
+
+        <h1 id="akili-thompson-hall">Akili Thompson Hall</h1>
+        <h4 id="st-louis-mo-314-600-6165-quaaysan-gmail-com-www-quaysan-dev">314 600 6165 |
+            quaaysan@gmail.com | www.quaysan.dev</h4>
+        <h4 id="hosted-selection">
+            <a href="https://github.com/kingfisherking">Github</a> | <a
+                href="https://www.linkedin.com/in/at-hall">LinkedIn</a> | <a
+                href="https://www.instagram.com/akili.does/">Instagram</a>
+        </h4>
+    </section>
+    <section id="Work">
+        <h2 id="work-experience">Work Experience</h2>
+        <h3 id="block-inc">BLOCK, INC</h3>
+        <h4 id="multi-focus-advocate">Multi-Focus Advocate</h4>
+        <ul>
+            <li>Advocate for customers by identifying trends in issues and suggesting improvements to processes,
+                policies
+                and products</li>
+            <li>Adaptable skill set, lending support to risk analysis, customer account management, dispute
+                consolidation,
+                and executive relations teams</li>
+            <li>Creative problem-solver, an excellent multi-tasker, and a collaborative team member</li>
+        </ul>
+        <h3 id="the-microgreen-company">THE.MICROGREEN.COMPANY</h3>
+        <h4 id="development-aide">Development Aide</h4>
+        <ul>
+            <li>Preliminary web design, web hosting, and web development, content management and publishing</li>
+            <li>Utilize Javascript, HTML, CSS, and Git to provide website services</li>
+            <li>Project management and lead for small scale hydroponic NFT system design team</li>
+        </ul>
+    </section>
+    <section id="Skill">
+        <h2 id="skills">Skills</h2>
+        <h3 id="technical-skills">Technical Skills</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>SQL</td>
+                    <td>SWIFT</td>
+                    <td>Python</td>
+                </tr>
+                <tr>
+                    <td>Javascript</td>
+                    <td>HTML/CSS</td>
+                    <td>Reactjs</td>
+                </tr>
+                <tr>
+                    <td>Linux</td>
+                    <td>Git</td>
+                    <td>Bash</td>
+                </tr>
+                <tr>
+                    <td>Figma</td>
+                    <td>UX/UI Design</td>
+                    <td>Tableau</td>
+                </tr>
+            </tbody>
+        </table>
+        <h3 id="certifications">Certifications</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><a href="https://www.coursera.org/account/accomplishments/certificate/KDS4E5BAGQ4W">The American
+                            Dream Academy Course (-)</a></td>
+                    <td><a
+                            href="https://www.codecademy.com/profiles/quaaysan4453405415/certificates/042a4e5884e3eb6ea1f2a12be6abb851">Codecademy
+                            SQL (-)</a></td>
+                    <td><a
+                            href="https://www.freecodecamp.org/certification/fccdf32ba58-c7de-458c-a63c-787526fe59e6/responsive-web-design">FreeCodeCamp
+                            Responsive Web Design (-)</a></td>
+                </tr>
+                <tr>
+                    <td><a
+                            href="https://www.freecodecamp.org/certification/fccdf32ba58-c7de-458c-a63c-787526fe59e6/javascript-algorithms-and-data-structures">FreeCodeCamp
+                            Javascript Algorithms (-)</a></td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <section id="Project">
+        <h2 id="personal-projects">Personal Projects</h2>
+        <a href="https://github.com/kingfisherking/Automatic-Screenshot-Cleaner">
+            <h3 id="automatic-screen-cleaner">Automatic Screen Cleaner (-)</h3>
+        </a>
+        <ul>
+            <li>Small automation script that helps organize the desktop and any screenshots</li>
+            <li>Moves screenshots to folder named "Screenshots", creates folder if one doesn't exist</li>
+        </ul>
+        <a href="https://kingfisherking.github.io/jamming-quaysan-react/">
+            <h3 id="spotify-api-mini-app">Spotify API Mini-App (-)</h3>
+        </a>
+        <ul>
+            <li>Portfolio project designed in HTML/CSS, Javascript, React, using the Spotify API</li>
+            <li>Enabled users to connect to their account, search for songs, and add them to personalized playlists</li>
+        </ul>
+        <a href="https://www.figma.com/file/kneA8hgAsZx2pSx7kPcjcf/Evil-Eye-App?type=design&node-id=0-1&mode=design">
+            <h3 id="ios-mobile-application-icurse-">iOS Mobile Application (iCurse) (-)</h3>
+        </a>
+        <ul>
+            <li>Designed and developed proprietary app based upon occult and mysticism popular with youth and
+                alternative
+                lifestyles </li>
+            <li>Figma used to create design for an app currently being built for app store publish</li>
+        </ul>
+        <a href="https://docs.google.com/presentation/d/1PSoL8V-QxGzLAybquUB6MGpAJNeYTieLA7Twt-2nkg4/edit#slide=id.p">
+            <h3 id="hacker-news-data-analysis-brief">Hacker News Data Analysis Brief (-)</h3>
+        </a>
+        <ul>
+            <li>SQL based data analysis of a sample database made using HackerNews ( news.ycombinator.com ) data from
+                2017
+            </li>
+            <li>Powerpoint/Slide presentation style of SQL queries and context of how data can be used to make business
+                forward conclusions</li>
+        </ul>
+        <a href="https://docs.google.com/document/d/1Rs2sHBVZMZq9ynlB4lFyNYS60Ye3lOgyAxTcEgTVm1E/edit?usp=sharing">
+            <h3 id="">LinkedIn 2016 Top Career Data Analysis (-)</h3>
+        </a>
+        <ul>
+            <li>Business Analytics Project that examines highly sought careers based on 2016 LinkedIn Top 10 skill categories</li>
+            <li>Insights about skill projection, analysis of comparative metrics, and explanation of important subjects</li>
+        </ul>
+    </section>
+    <section id="Organization">
+
+        <h2 id="organizations">Organizations</h2>
+        <a href="https://www.techequitycollective.com/about/">
+            <h3 id="tech-equity-collective-tech-prep">Tech Equity Collective: Tech Prep (-)</h3>
+        </a>
+        <h4 id="rising-innovator">Rising Innovator</h4>
+        <ul>
+            <li>Google based community focused on fostering new skills to transition into technology and science focused
+                roles</li>
+            <li>Granting access to additional resources, including strategic, programmatic and operational support for
+                transitional stages</li>
+        </ul>
+        <a href="https://www.paypal.com/donate/?hosted_button_id=3T6F4LPC9V34E">
+            <h3 id="seed-st-louis">Seed St. Louis (-)</h3>
+        </a>
+        <h4 id="volunteer-organizer">Volunteer Organizer</h4>
+        <ul>
+            <li>Organized and coordinated with local community gardens to develop small scale green initiatives and
+                harvest
+                opportunities</li>
+            <li>
+                Manage and maintain multiple community gardens in area
+            </li>
+        </ul>
+    </section>
+    <section id="Education">
+        <h2 id="education">Education</h2>
+        <a>
+            <h3>OneTen Scholar</h3>
+            <h5>Business Analytics NanoDegree -- 2023</h5>
+        </a>
+        <a>
+            <h3>Google Cybersecurity Professional</h3>
+            <h5>Grow with Google -- 2023</h5>
+        </a>
+        <a>
+            <h3>Google Data Analytics</h3>
+            <h5>Grow with Google -- 2023</h5>
+        </a>
+        <h3 id="tulane-university">Tulane University</h3>
+        <h5>2013 -- 2015</h5>
+
+    </section>
+
+</body>
+
 </html>
