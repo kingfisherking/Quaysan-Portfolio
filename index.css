@@ -37,3 +37,11 @@ h5{
     margin-top: -10px;
     margin-left: 10px;
 }
+
+#unpadleft {
+    margin-right: -100px;
+}
+
+#Work, #Skill, #Project, #Organization, #Education {
+    padding-left: 5%;
+}
